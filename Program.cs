@@ -18,6 +18,7 @@
         static void Main(string[] args)
         {
             person p1 = new person("Alice", 30, "Female");
+            Console.WriteLine($"Name: {p1.name}, Age: {p1.age}, Gender: {p1.gender}");
 
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World!");
